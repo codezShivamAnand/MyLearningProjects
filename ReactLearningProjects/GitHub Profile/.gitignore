@@ -1,0 +1,11 @@
+# Ignore dependencies & build files
+node_modules/
+dist/
+.parcel-cache/
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore environment variables
+.env
