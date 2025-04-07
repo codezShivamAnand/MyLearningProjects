@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: black;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+input{
+    width: 80%;
+    
+    background-color: rgb(48, 48, 147);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(48, 48, 147);
+    color:rgb(13, 203, 79);
+    margin-left: 6px;
+    border: none;
+    border-radius: 10px;
+}
+.list {
+    margin-left: 0;
+    padding-left: 0; /* removes default ul padding */
+    list-style: none; /* removes default bullet points */
+    text-align: left; /* makes sure content aligns left */
+    margin-top: 10px;
+}
+
+.to-dolist {
+    color: white;
+    background-color: rgb(40, 40, 104);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+#root{
+    background-color: rgb(61, 139, 127);
+    width: 300px;
+}
+li>button{
+    color: red;
+    height: 30px;
+    border-radius: 50%;
+}
